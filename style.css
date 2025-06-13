@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+html, body{
+    background-color: #f4d04e;
+    font-family: "Figtree", sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 275px;
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border: 1px solid #111111;
+    box-shadow: 10px 10px #111111;
+}
+
+img{
+    height: fill;
+    width: fill;
+    border-radius: 10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+#learning{
+    font-weight: 800;
+    background-color: #f4d04e;
+    width: fit-content;
+    padding: 4px 12px;
+    border-radius: 4px;
+}
+
+#learning, #publish, h1{
+    color: #111111;
+}
+
+#learning{
+    font-weight: 800;
+}
+
+h1{
+    font-size: x-large;
+
+    margin: 0px;
+    font-weight: 800;
+}
+
+h1:hover{
+    color: #f4d04e;
+    cursor: pointer;
+}
+
+#description{
+    color: #6b6b6b;
+    font-weight: 500;
+}
+
+.author{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.author>span{
+    font-size: 14px;
+    font-weight: 800;
+}
+
+@media only screen and (max-width: 375px) {
+#learning{
+    font-size: medium;
+}
+
+#publish, #description{
+    font-size: small;
+}
+
+h1{
+    font-size: large;
+}
+
+#author>span{
+    font-size: 12px;
+}
+}
